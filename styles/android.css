@@ -27,7 +27,7 @@ body {
     font-family: var(--font-pad);
 }
 
-/*Barra de rolagem*/
+/*Início - Barra de rolagem*/
 
 body::-webkit-scrollbar{
     width: 15px;
@@ -42,6 +42,8 @@ body::-webkit-scrollbar-thumb{
     border-radius: 10px;
     border: 2px solid var(--cor5);
 }
+
+/*Fim - Barra de rolagem*/
 
 a.externo::after{
     content: "\00A0\1F517"
